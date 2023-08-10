@@ -14,5 +14,13 @@ public class DynaArrayTest {
         System.out.println("dynaArray2: ");
         System.out.println(Arrays.toString(dynaArray2.result) + " ");
         System.out.println(dynaArray2.count);
+
+        System.out.println("******************************");
+
+        dynaArray1.add(5);
+
+        System.out.println("dynaArray1: ");
+        System.out.println(Arrays.toString(dynaArray1.result) + " ");
+        System.out.println(dynaArray1.count);
     }
 }
