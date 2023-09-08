@@ -1,12 +1,11 @@
 package module1_2;
 
+import java.util.Arrays;
+
 public class Task1 {
     public static void main(String[] args) {
         int[] array1 = {3, 8, 15, 17};
-        int[] result = getIndex(array1, 32);
-        for (int i = 0; i < result.length; i++) {
-            System.out.print(result[i] + ", ");
-        }
+        System.out.println(Arrays.toString(getIndex(array1, 32)));
     }
 
     public static int[] getIndex(int[] array, int num) {
